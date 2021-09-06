@@ -329,12 +329,12 @@ def changepage():
         page1(win)
     elif pagenum==2:
         page2(win)
-
+	
+#main
 try:
         print("Checking for saved Credentials.....")
         fileu =open("username.txt", "r")
         username = fileu.read()
-        
         filep =open("password.txt", "r")
         password = filep.read()
         fileu.close()
