@@ -1,3 +1,6 @@
+#use your fake email id and password (on line 164,165)
+#enable less secure app access in your Manage your Google account-> Security -> Scroll down click turn on less secure app access -> enable less secure app access
+#follow the above instructions and then app will start properly working
 from tkinter import *
 from tkinter import messagebox
 import tkinter.font as font
